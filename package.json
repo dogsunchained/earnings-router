@@ -1,0 +1,36 @@
+{
+  "name": "earnings-router",
+  "version": "1.0.0",
+  "description": "Contract for distributing funds to multiple wallets",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "app-root-path": "^3.0.0",
+    "bn-chai": "^1.0.1",
+    "chai": "^4.2.0",
+    "dotenv": "^8.6.0",
+    "ganache": "^6.4.4",
+    "ganache-cli": "^6.12.1",
+    "ganache-core": "^2.13.2",
+    "mocha": "^8.4.0",
+    "truffle": "^5.4.1"
+  },
+  "scripts": {
+    "test": "truffle compile && mocha --exit --timeout 25000 --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
